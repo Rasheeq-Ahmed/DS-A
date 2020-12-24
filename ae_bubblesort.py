@@ -21,3 +21,6 @@ def bubbleSort(array):
 				array[i-1], array[i] = array[i], array[i-1]  # Swap elements if condition
 				sortedC = False	 # array isn't sorted so reset flag to restart loop
 	return array
+
+res = bubbleSort([1,3,1,4,2,6,1,8])
+print(res)
